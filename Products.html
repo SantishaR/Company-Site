@@ -7,36 +7,28 @@
 		<link rel="stylesheet" href="style.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<script src="function.js"></script>
 	</head>
 	<body>
 	<main>	
-	<!-- Navigation -->
-	<header>
-	<nav>
-		<label for="show-menu" class="show-menu"><img id="logo" src="images/logo1.png" alt="logo"> <p>Show Menu &darr;</p> </label>
-		<input type="checkbox" id="show-menu" role="button">
-		<ul id="menu">
-			<li>  <a class="active" href="index.html"> Home </a>  </li>
-			<li>  <a href="AboutUs.html">About Us</a> </li>
-			<li>  <a href="Products.html">Products</a> </li>
-			<li>  <a href="ContactUs.html">Contact Us</a> </li>
-		</ul>
-	</nav>
+		<header>
+
+			<img id="banner" src="images/product.png" alt="company banner">
 	</header>
-	<div class="arrow">
-		<a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
-	 </div>
-				<br><br>
-		<div class="header">
-		<h1> Innovative Technologies</h1>
-	</div>
-		
-		<!-- company banner image -->
-		<img id="banner" src="images/product.jpg" alt="product banner" >
-		<main>
-		<h2> Products </h2>
-			<br><hr/>
+	<!-- Navigation -->
+	<nav>
+	<div class="topnav" id="myNav">
+		<a href="index.html" class="active">Home</a>
+		<a href="ContactUs.html">Contact Us</a>
+		<a href="Products.html">Products</a>
+		<a href="AboutUs.html">About Us</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	  </div>
+	</nav>
+
 			
 		<!-- products Section -->
 		<article>
@@ -112,12 +104,16 @@
 			</div>
 		
 			</article>
-		<footer >
-			<p>Email: <a href="mailto:info@innovativetech.co.za">info@innovativetech.co.za</a></p>
-			<p>Phone: <a href="tel:082-152-2305">082-152-2305</a></p>
-			<p class="icon"><a href="https://facebook.com/"><i class="fab fa-facebook-square"></i>
-			<a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
-			<p id="p1">&copy; 2021 All Rights Reserved. </p>
+	
+			<div class="arrow">
+				<a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
+			 </div>
+			<footer>
+				<p>Email: <a href="mailto:info@technaholic.co.za">info@technaholic.co.za</a></p>
+				<p>Phone: <a href="tel:082-152-2305">082-152-2305</a></p>
+				<p class="icon"><a href="https://facebook.com/"><i class="fab fa-facebook-square"></i></a>
+				<a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></p>
+				<p id="p1">&copy; 2021 All Rights Reserved. </p>
 		</footer>
 	</main>
 	</body>
