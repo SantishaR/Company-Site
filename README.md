@@ -12,4 +12,3 @@ Created a basic static company website as a task at the GirlCode learnership.
 ## Live Demo
 
 [Live Demo](https://rawcdn.githack.com/SantishaR/Company-Site/afbdb0142dd3ba050d0a2446515392afb8de6d81/index.html)
-[I'm an inline-style link](https://rawcdn.githack.com/SantishaR/Company-Site/afbdb0142dd3ba050d0a2446515392afb8de6d81/index.html)
