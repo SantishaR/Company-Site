@@ -9,4 +9,4 @@ Created a basic static company website as a task at the GirlCode learnership.
 ![Project Screenshot](images/screenshot3.PNG)
 ![Project Screenshot](images/screenshot4.PNG)
 
-[Live Demo](https://rawcdn.githack.com/SantishaR/Company-Site/afbdb0142dd3ba050d0a2446515392afb8de6d81/index.html)
+[Live Demo](https://raw.githack.com/SantishaR/Company-Site/master/index.html)
