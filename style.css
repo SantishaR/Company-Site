@@ -177,6 +177,7 @@ img {
     rgba(253, 45, 213, 0.7931547619047619) 100%
   );
   text-align: center;
+  font-size: 1em;
   cursor: pointer;
   width: 100%;
 }
