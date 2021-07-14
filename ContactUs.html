@@ -19,22 +19,25 @@
   <body>
     <main>
       <header>
-        <img id="banner" src="images/contact.png" alt="company banner" />
+        <img
+          class="techaholic-banner"
+          src="images/banner.png"
+          alt="company banner"
+        />
+        <nav>
+          <div class="topnav" id="myNav">
+            <a href="index.html" class="active">Home</a>
+            <a href="ContactUs.html">Contact Us</a>
+            <a href="Products.html">Products</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </nav>
       </header>
-      <!-- Navigation -->
-      <nav>
-        <div class="topnav" id="myNav">
-          <a href="ContactUs.html" class="active">Contact Us</a>
-          <a href="index.html">Home</a>
-          <a href="AboutUs.html">About Us</a>
-          <a href="Products.html">Products</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-      </nav>
       <br /><br />
-      <p class="p1">
+      <p class="paragraph-style">
         Feel free to contact us whether you want to inquire about the products
         we sell, <br />request for quotation and assistance on the services we
         offer.
@@ -42,74 +45,124 @@
 
       <br />
       <!-- Contact Form section -->
-      <h3>Contact Form</h3>
-      <div class="column1">
+      <h1>Contact Form</h1>
+      <div class="form-container">
         <form action="#">
-          <label for="fname">First Name</label>
-          <input
-            type="text"
-            id="fname"
-            name="firstname"
-            placeholder="Your name.."
-          />
-          <label for="lname">Last Name</label>
-          <input
-            type="text"
-            id="lname"
-            name="lastname"
-            placeholder="Your last name.."
-          />
-          <label for="email">Email address</label>
-          <input
-            type="text"
-            id="email"
-            name="emailaddress"
-            placeholder="Your email address.."
-          />
-          <label for="help">What do you require assistance with?</label><br />
-          <input type="radio" id="sales" name="sales" value="sales" />
-          <label for="sales">Sales</label><br />
-          <input type="radio" id="query" name="query" value="query" />
-          <label for="query">Query</label><br />
-          <br />
-          <label for="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Write something.."
-          ></textarea>
-          <input type="submit" value="Submit" />
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="help">What do you require assistance with?</label>
+            </div>
+            <div class="col-75">
+              <input type="checkbox" id="sales" name="sales" value="sales" />
+              <label for="sales">Sales</label>
+              <input type="checkbox" id="query" name="query" value="query" />
+              <label for="query">Query</label><br />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Message</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write message.."
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" />
+          </div>
         </form>
       </div>
 
       <br /><br /><br />
+      <h1>Where to find us</h1>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10440.679022784518!2d28.12799995689885!3d-25.992551993637647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956e08d57b99c1%3A0x92af70bd643549d4!2s676%20Gallagher%20Ave%2C%20Halfway%20House%2C%20Midrand%2C%201685!5e0!3m2!1sen!2sza!4v1622492643350!5m2!1sen!2sza"
         allowfullscreen=""
         loading="lazy"
       ></iframe>
+
       <br /><br /><br />
-      <p id="p2">Would you like to receive our monthly newsletter?</p>
-      <div class="column1">
+      <h1>Subscribe to our Newsletter</h1>
+      <p class="paragraph-style">
+        Subscribe to our newsletter for monthly specials.
+      </p>
+      <div class="form-container">
         <form action="#">
-          <label for="email">Email address</label>
-          <input
-            type="text"
-            id="mail"
-            name="emailaddress"
-            placeholder="Your email address.."
-          />
-          <input type="submit" value="Subscribe" />
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="name"
+                name="firstname"
+                placeholder="Your name.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="e-address"
+                name="email"
+                placeholder="Your email address.."
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <input type="submit" value="Subscribe" />
+          </div>
         </form>
       </div>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
+      <br />
+      <button class="top-button">
+        <a href="#myNav"><i class="fas fa-chevron-up"></i></a>
+      </button>
+      <br /><br /><br />
       <footer>
         <p>
           Email:
           <a href="mailto:info@technaholic.co.za">info@technaholic.co.za</a>
         </p>
-        <p>Phone: <a href="tel:082-152-2305">082-152-2305</a></p>
+        <p>Phone: <a href="tel:+27 (0)11 504-4711">+27 (0)11 704-4731</a></p>
         <p class="icon">
           <a href="https://facebook.com/"
             ><i class="fab fa-facebook-square"></i
@@ -118,7 +171,7 @@
             ><i class="fab fa-twitter-square"></i
           ></a>
         </p>
-        <p class="p1">&copy; 2021 All Rights Reserved.</p>
+        <p class="paragraph-style">&copy; 2021 All Rights Reserved.</p>
       </footer>
     </main>
   </body>
