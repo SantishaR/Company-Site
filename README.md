@@ -31,4 +31,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Acknowledgments
 
 - [W3Schools](https://www.w3schools.com/)
-
