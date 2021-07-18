@@ -17,3 +17,18 @@ In this project I created a basic static company website as a task at the GirlCo
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Project Author
+
+Santisha Reddy
+
+- Github: [@SantishaR](https://github.com/SantishaR)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Acknowledgments
+
+- [W3Schools](https://www.w3schools.com/)
+
