@@ -1,6 +1,6 @@
 # Company-Site
 
-In this project I created a basic static company website as a task at the GirlCode learnership.
+In this project I created a basic company website as a task at the GirlCode learnership.
 
 ## Project Preview
 
